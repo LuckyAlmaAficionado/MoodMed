@@ -1,16 +1,35 @@
-# Project reminder medicine
+**MoodMed - Aplikasi Pengingat Minum Obat dan Pengecekan Mood Harian**
 
-A new Flutter project.
+MoodMed adalah aplikasi yang bertujuan membantu pengguna dalam menjaga kesehatan mental dan fisik. Dibangun dengan menggunakan Flutter, Firebase, GetX, dan CLI sebagai pola kode.
 
-## Getting Started
+### Fitur Utama
+1. **Pengingat Minum Obat:**
+   - Pengguna dapat menetapkan jadwal minum obat mereka.
+   - Notifikasi akan diirimkan untuk mengingatkan pengguna pada waktu yang ditentukan.
 
-This project is a starting point for a Flutter application.
+2. **Pengecekan Mood Harian:**
+   - Pengguna dapat memasukkan penilaian terhadap mood mereka setiap harinya.
+   - Data mood disimpan dalam database Firebase untuk analisis jangka panjang.
 
-A few resources to get you started if this is your first Flutter project:
+3. **Affirmasi Positif Harian:**
+   - Setiap hari, pengguna akan menerima afirmasi positif secara acak untuk meningkatkan semangat dan kesejahteraan.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Penggunaan
+1. Pastikan telah menginstal Flutter dan Firebase di lingkungan pengembangan Anda.
+2. Konfigurasikan Firebase dengan menambahkan file `google-services.json`.
+3. Gunakan CLI untuk menjalankan perintah seperti pembuatan file baru atau manajemen dependensi.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Struktur Proyek
+- `lib/`: Kode sumber Flutter.
+- `cli/`: Direktori berisi perintah CLI untuk pengelolaan proyek.
+- `assets/`: Asset seperti gambar atau font.
+
+### Cara Menjalankan Aplikasi
+1. Buka terminal dan arahkan ke direktori proyek.
+2. Jalankan perintah `flutter run` untuk menjalankan aplikasi.
+
+### Kontribusi
+Anda dapat berkontribusi melalui *pull request* dan melaporkan *issue*.
+
+### Lisensi
+Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detailnya.
