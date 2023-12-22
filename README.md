@@ -1,4 +1,4 @@
-# project_reminder_medicine
+# Project reminder medicine
 
 A new Flutter project.
 
